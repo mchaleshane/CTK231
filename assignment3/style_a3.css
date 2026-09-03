@@ -1,0 +1,28 @@
+a:link {
+  color: Red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}  
+
+.divorange {
+    background-color: rgb(249, 213, 145);
+}
+
+h1 {
+    color: rgb(119, 199, 225);
+}
+
+h2 {
+    color: rgb(222, 141, 219);
+}
+
+.spanstyle {
+    color: rgb(96, 163, 163);
+}
