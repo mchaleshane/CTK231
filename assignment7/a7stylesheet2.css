@@ -1,0 +1,115 @@
+body {
+  background-color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#wrapper {
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border: 5px solid darkblue;
+  max-width: 1200px;
+}
+
+header {
+background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  grid-column: span 12;
+  border-bottom: 5px solid darkblue;
+  font-family: Helvetica, Arial;
+ 
+}
+header h1 {
+    padding-left: 20px;
+    font-style: italic;
+}
+
+nav {
+  grid-column: span 12;
+}
+
+.firsth2 {
+  text-align: justify;
+  font-weight: bold;
+  background-color: lightblue;
+  grid-column: span 3;
+}
+
+.secondh2 {
+  background-color: white;
+  grid-column: span 9;
+}
+
+img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.floatimg {
+  float: right;
+  border: 5px solid darkblue;
+}
+
+footer {
+  grid-column: span 12;
+  color: white;
+  background-color: red;
+  border-top: 5px solid darkblue;
+  
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  width:276.55px;
+  height: 25px;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: lightblue
+
+}
+h2 {
+  border-bottom: 4px solid darkblue;
+  margin: 5px;
+}
+
+main {
+  padding: 10px;
+}
+
+
+
+li a:hover {
+  color: white;
+}
+
+p a:hover {
+  color: pink;
+}
+
+h1 a:hover {
+ color: white;
+}
+
+p a {
+   text-decoration: none;
+   color: red;
+   font-weight: bold;
+}
+
+h2 a {
+  font-weight: none;
+font-family: Helvetica, Arial;
+color: darkblue;
+}
+
+.highlightedpage a{
+  color: white;
+}
