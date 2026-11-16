@@ -101,6 +101,9 @@ header div {
   margin-left: 550px;
   color: white;
 }
+header div a {
+  color: white;
+}
 header div :hover{
   color: lightgray;
 }

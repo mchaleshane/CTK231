@@ -37,6 +37,9 @@ background-color: #1b1b1b;
 
 }
 
+header div a {
+  color: white;
+}
 
 h1 a {
     color: white;
