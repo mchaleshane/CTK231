@@ -1,0 +1,223 @@
+body {
+  background-color: black;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+  
+#wrapper {
+  background-image: url(sitebg_01.png);
+  display:grid;
+  object-fit: cover;
+ background-position: center;
+  margin: 24px auto;
+  border-top: 5px solid #444444;
+  border-left: 5px solid #444444;
+  border-right: 5px solid #444444;
+  
+  background-color: #ffffff;
+  
+  width: 1200px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  max-width: 1200px;
+  border-bottom: 40px solid #444444;
+  grid-template-rows: auto;
+ 
+
+}
+header {
+background-color: #1b1b1b;
+  grid-column: span 12;
+   font-family: "Figtree", sans-serif;
+  border-bottom: 5px solid #444444;
+ font-size: 20px;
+
+}
+
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+
+
+.imgblock {
+  background-image: linear-gradient(to bottom, #444444, #545252);
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  height: 135px;
+  width: 265px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+
+
+  }
+
+
+
+   .CarouselContainer {
+  grid-column: span 12;
+  background-color: black;
+  }
+
+ 
+
+.aboutmetext {
+  
+  color: white;
+     grid-column: span 5;
+     font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.CarouselBlurb {
+  color: white;
+  font-size: 30px;
+  text-align:center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#side { 
+  grid-column: span 7; 
+}
+
+.CarouselContainer a :hover {
+  box-shadow: 0px 10px 10px black; /* x, y, blur, color */
+  transition: box-shadow 0.2s, width 0.2s, color 0.2s;
+  
+  height: 125px;
+  width: 255px;
+  
+}
+
+
+
+
+
+
+
+header div {
+  margin-left: 550px;
+  color: white;
+}
+header div a {
+  color: white;
+}
+header div :hover{
+  color: lightgray;
+}
+
+header div :visited{
+  color: white;
+  text-decoration: none;
+}
+
+header h1 a {
+  margin-left: 450px;
+
+}
+
+#myCarousel {
+margin-top: 40px;
+margin-bottom: 100px;
+
+
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  background: black;
+  
+ 
+}
+
+.MODELS {
+      grid-column: span 3;
+  
+    background-color: #1b1b1b;
+    color: white;
+    border-top: 5px solid #444444;
+  
+    border-bottom: 5px solid #444444;
+    font-family: "Figtree", sans-serif;
+ text-align: center;
+
+ margin-top: 40px;
+ 
+}
+
+.f-carousel {
+  --f-arrow-pos: 15px;
+
+  --f-arrow-width: 38px;
+  --f-arrow-height: 38px;
+
+  --f-arrow-svg-width: 16px;
+  --f-arrow-svg-height: 16px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #475569;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: darkgray;
+  --f-arrow-bg: #000000;
+}
+
+#--f-arrow-bg {
+  opacity: 0;
+}
+
+#myCarousel2 {
+margin-top: 40px;
+margin-bottom: 100px;
+
+
+}
+
+#myCarousel2 .f-carousel__slide {
+  text-align: center;
+  background: black;
+  
+ 
+}
+
+#myCarousel3 {
+margin-top: 40px;
+margin-bottom: 100px;
+
+
+}
+
+#myCarousel3 .f-carousel__slide {
+  text-align: center;
+  background: black;
+  
+ 
+}
+
+#myCarousel4 {
+margin-top: 40px;
+margin-bottom: 100px;
+
+
+}
+
+#myCarousel4 .f-carousel__slide {
+  text-align: center;
+  background: black;
+  
+ 
+}
